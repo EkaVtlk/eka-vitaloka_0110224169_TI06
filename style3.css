@@ -1,0 +1,38 @@
+body {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+}
+
+div {
+    padding: 7vh 0;
+    border: 1px solid;
+}
+
+.kotak-1 {
+    background-color: lavender;
+}
+
+.kotak-2 {
+    background-color: aquamarine;
+    grid-column: 2/6;
+}
+
+.kotak-3 {
+    background-color: cornflowerblue;
+}
+
+.kotak-4 {
+    background-color: olive;
+    grid-column: 2/5;
+    padding: 30vh 0;
+}
+
+.kotak-5 {
+    background-color: lightcoral;
+}
+
+.kotak-6 {
+    background-color: lightgreen;
+    grid-column: 1/6;
+}
